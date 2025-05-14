@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.container {
+    background: rgb(202, 196, 196);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 35px 0 35px rgba(2, 82, 253, 0.1);
+    text-align: center;
+}
+
+.container:hover {
+    box-shadow: 35px 35px 35px 35px rgba(255, 2, 200, 0.15);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: rgb(47, 47, 48);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* sombra leve */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background: rgb(250, 1, 196); /* cor mais clara ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(67, 0, 252, 0.3); /* sombra um pouco mais forte no hover */
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+input {
+    border-radius: 15px; /* Arredonda os cantos */
+    border: 1px solid #ccc;
+    padding: 10px;
+}
